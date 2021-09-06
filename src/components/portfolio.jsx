@@ -8,6 +8,15 @@ import stock3 from "../img/image4.jpg";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
 
+//Scrapp App
+import img_Scrapp0 from "../img/Scrapp/Scrapp0.png";
+import img_Scrapp1 from "../img/Scrapp/Scrapp1.png";
+import img_Scrapp2 from "../img/Scrapp/Scrapp2.png";
+import img_Scrapp3 from "../img/Scrapp/Scrapp3.png";
+import img_Scrapp4 from "../img/Scrapp/Scrapp4.png";
+
+
+
 class Portfolio extends React.Component {
   render() {
     return (
@@ -27,17 +36,17 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
+                <a href={img_Scrapp0} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={img_Scrapp0} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Scrap-app</h2>
+                        <h2 className="w-title">Scrap-App</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap ReactJS
+                            ReactJS Bootstrap AWS Docker
                           </span>
                         </div>
                       </div>
@@ -45,33 +54,34 @@ class Portfolio extends React.Component {
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
                         </div>
+                        
                       </div>
                     </div>
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={img_Scrapp1}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={img_Scrapp2}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={img_Scrapp3}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={img_Scrapp4}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
@@ -388,6 +398,19 @@ class Portfolio extends React.Component {
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="title-box text-center">
+                <h3 className="title-a">GIT REPO</h3>
+                <p className="subtitle-a">
+                  You can find this proyects and more in my  
+                  <a href="https://github.com/cama0047" target="">
+                      <button> <i className="ion-social-github"></i> GitHub </button>
+                  </a>
+                  </p>
               </div>
             </div>
           </div>
