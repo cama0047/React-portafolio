@@ -15,6 +15,16 @@ import img_Scrapp2 from "../img/Scrapp/Scrapp2.png";
 import img_Scrapp3 from "../img/Scrapp/Scrapp3.png";
 import img_Scrapp4 from "../img/Scrapp/Scrapp4.png";
 
+//Resto App
+import img_Resto0 from "../img/Resto/Resto0.png";
+import img_Resto1 from "../img/Resto/Resto1.png";
+import img_Resto2 from "../img/Resto/Resto2.png";
+import img_Resto3 from "../img/Resto/Resto3.png";
+import img_Resto4 from "../img/Resto/Resto4.png";
+
+//Scrapp App
+import img_Movie0 from "../img/Movie/Movie0.png";
+import img_Movie1 from "../img/Movie/Movie1.png";
 
 
 class Portfolio extends React.Component {
@@ -87,13 +97,7 @@ class Portfolio extends React.Component {
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+              
               </div>
             </div>
             <div className="col-md-4">
@@ -159,9 +163,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
+                <a href={img_Resto0} data-lightbox="gallery-todo">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={img_Resto0} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -183,47 +187,42 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={img_Resto1}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={img_Resto2}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={img_Resto3}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={img_Resto4}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-todo"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+               
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-medlingos">
+                <a href={img_Movie0} data-lightbox="gallery-medlingos">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={img_Movie0}
+                     alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -243,41 +242,15 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
+              
                 <a
-                  href={stock1}
+                  href={img_Movie1}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+               
               </div>
             </div>
             <div className="col-md-4">
