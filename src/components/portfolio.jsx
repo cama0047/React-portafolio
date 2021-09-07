@@ -22,9 +22,19 @@ import img_Resto2 from "../img/Resto/Resto2.png";
 import img_Resto3 from "../img/Resto/Resto3.png";
 import img_Resto4 from "../img/Resto/Resto4.png";
 
-//Scrapp App
+//Movie App
 import img_Movie0 from "../img/Movie/Movie0.png";
 import img_Movie1 from "../img/Movie/Movie1.png";
+
+//Scrapp App
+import img_Ws0 from "../img/Ws/Ws0.png";
+import img_Ws1 from "../img/Ws/Ws1.png";
+
+//Logo 
+import img_Netflix from "../img/FrontEnd/NetflixLogo.png";
+import img_Tiktok from "../img/FrontEnd/TiktokLogo.png";
+import img_IG from "../img/FrontEnd/IGLogo.png";
+
 
 
 class Portfolio extends React.Component {
@@ -102,9 +112,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-aguadeluz">
+                <a href={img_Ws0} data-lightbox="gallery-aguadeluz">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={img_Ws0} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -125,40 +135,13 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={img_Ws1}
                   data-lightbox="gallery-aguadeluz"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+                
               </div>
             </div>
             <div className="col-md-4">
@@ -374,6 +357,94 @@ class Portfolio extends React.Component {
               </div>
             </div>
           </div>
+
+          <div className="row">
+            {/* Netflix */}
+            <div className="col-md-4">
+              <div className="work-box">
+                <a href="https://github.com/cama0047/LogoNetflix-Css">
+                  <div className="work-img">
+                    <img src={img_Netflix} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">Logo Netflix</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            HTML and CSS
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            {/* Tiktok */}
+            <div className="col-md-4">
+              <div className="work-box">
+                <a href="https://github.com/cama0047/LogoTiktok-CSS">
+                  <div className="work-img">
+                    <img src={img_Tiktok} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">Logo Tiktok</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            HTML and CSS
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            {/* IG */}
+            <div className="col-md-4">
+              <div className="work-box">
+                <a href="https://github.com/cama0047/LogoInstagram-CSS">
+                  <div className="work-img">
+                    <img src={img_IG} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">Logo Instagram</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            HTML and CSS
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+
+          </div>
+
+
           <div className="row">
             <div className="col-sm-12">
               <div className="title-box text-center">
