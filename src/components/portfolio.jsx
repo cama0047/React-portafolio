@@ -26,9 +26,15 @@ import img_Resto4 from "../img/Resto/Resto4.png";
 import img_Movie0 from "../img/Movie/Movie0.png";
 import img_Movie1 from "../img/Movie/Movie1.png";
 
-//Scrapp App
+//WebScrap App
 import img_Ws0 from "../img/Ws/Ws0.png";
 import img_Ws1 from "../img/Ws/Ws1.png";
+
+//Timer-Quiz App
+import img_TQ0 from "../img/TimerQuiz/TQ0.png";
+import img_TQ1 from "../img/TimerQuiz/TQ1.png";
+import img_TQ2 from "../img/TimerQuiz/TQ2.png";
+import img_TQ3 from "../img/TimerQuiz/TQ3.png";
 
 //Logo 
 import img_Netflix from "../img/FrontEnd/NetflixLogo.png";
@@ -238,16 +244,16 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-smth">
+                <a href={img_TQ0} data-lightbox="gallery-smth">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={img_TQ0} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Adobe XD Plug-in</h2>
+                        <h2 className="w-title">Timer-Quiz</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">React+ Adobe Console</span>
+                          <span className="w-ctegory">React+Bootstrap</span>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -258,6 +264,28 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a> 
+                 <a
+                  href={img_TQ1}
+                  data-lightbox="gallery-todo"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={img_TQ2}
+                  data-lightbox="gallery-todo"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={img_TQ3}
+                  data-lightbox="gallery-todo"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+               
               </div>
             </div>
             <div className="col-md-4">
