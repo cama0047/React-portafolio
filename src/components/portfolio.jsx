@@ -1,7 +1,7 @@
 import React from "react";
 
 //import stock
- import stock from "../img/image1.jpg";
+//import stock from "../img/image1.jpg";
 // import stock1 from "../img/image2.jpg";
 // import stock2 from "../img/image3.jpg";
 // import stock3 from "../img/image4.jpg";
@@ -206,7 +206,7 @@ class Portfolio extends React.Component {
                
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4"> 
               <div className="work-box">
                 <a href={img_Movie0} data-lightbox="gallery-medlingos">
                   <div className="work-img">
@@ -244,10 +244,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={img_TQ0} data-lightbox="gallery-medlingos">
+                <a href={img_TQ0} data-lightbox="gallery-TQ">
                   <div className="work-img">
-                    <img src={img_TQ0}
-                     alt="" className="img-fluid" />
+                    <img src={img_TQ0} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -255,8 +254,8 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">Timer Quiz</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            ReactJS + Bootstrap
-                          </span>
+                            React + Bootstrap 
+                          </span>{" "}
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -267,33 +266,30 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-              
                 <a
                   href={img_TQ1}
-                  data-lightbox="gallery-medlingos"
+                  data-lightbox="gallery-TQ"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={img_TQ2}
-                  data-lightbox="gallery-medlingos"
+                  data-lightbox="gallery-TQ"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={img_TQ3}
-                  data-lightbox="gallery-medlingos"
+                  data-lightbox="gallery-TQ"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 
-               
               </div>
             </div>
-
             <div className="col-md-4">
               <div className="work-box">
                 
@@ -405,8 +401,6 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-
-
           </div>
 
 
