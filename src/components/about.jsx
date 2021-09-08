@@ -6,15 +6,6 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
-        {
-          id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
-        },
-
         {
           id: "ReactJS_skill",
           content: "ReactJS",
@@ -27,7 +18,16 @@ class About extends React.Component {
           porcentage: "75%",
           value: "75"
         },
-        { id: "NODE_skill", content: "Node.js", porcentage: "70%", value: "70" },
+        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
+        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        {
+          id: "JavaScript_skill",
+          content: "JavaScript",
+          porcentage: "80%",
+          value: "80"
+        },
+
+        { id: "NODE_skill", content: "Node.js", porcentage: "75%", value: "75" },
         { id: "Databases_skill", content: "Databases", porcentage: "70%", value: "70" },
         {
           id: "AWS_skill",
