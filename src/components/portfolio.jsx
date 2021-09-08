@@ -244,16 +244,19 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={img_TQ0} data-lightbox="gallery-smth">
+                <a href={img_TQ0} data-lightbox="gallery-medlingos">
                   <div className="work-img">
-                    <img src={img_TQ0} alt="" className="img-fluid" />
+                    <img src={img_TQ0}
+                     alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Timer-Quiz</h2>
+                        <h2 className="w-title">Timer Quiz</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">React+Bootstrap</span>
+                          <span className="w-ctegory">
+                            ReactJS + Bootstrap
+                          </span>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -263,31 +266,34 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                </a> 
-                 <a
+                </a>
+              
+                <a
                   href={img_TQ1}
-                  data-lightbox="gallery-todo"
+                  data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={img_TQ2}
-                  data-lightbox="gallery-todo"
+                  data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={img_TQ3}
-                  data-lightbox="gallery-todo"
+                  data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
+                
                
               </div>
             </div>
+
             <div className="col-md-4">
               <div className="work-box">
                 
